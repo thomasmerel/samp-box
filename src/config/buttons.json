@@ -1,6 +1,3 @@
 {
-    "buttons": [{
-        "title": "what",
-        "path": "src/mp3/what.mp3"
-    }]
+    "what" : "src/mp3/what.mp3"
 }
