@@ -1,15 +1,16 @@
 $(function(){
-    var jsonPath = "src/config/buttons.json";
+    var jsonPath = "http://sampbox.thomas-merel.fr/src/config/buttons.json?jsoncallback=?";
     readJson(jsonPath);
 });
 
 
 function readJson(path){
     $.getJSON(path, function(json) {
-            console.log(json);
+        readData(jsonObject);
     });
 }
 
 function readData(data){
-    console.log(data);
+    jsonObject = JSON.parse(data);
+    console.log(jsonObject);
 }
