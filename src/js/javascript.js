@@ -24,3 +24,10 @@ function htmlConstructor(jsonButton){
     var button = '<a class="waves-effect waves-light btn" onClick="play(this)" data-button-name="'+jsonButton.name+'" data-sound-uri="'+jsonButton.value+'" href="#">'+jsonButton.name+'</a>';
     $('#buttons-lib').append(button);
 }
+
+function play(button){
+    console.log(button);
+    //new Audio('<url>').play();
+}
+
+
