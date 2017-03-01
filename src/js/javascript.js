@@ -1,8 +1,8 @@
 $(function(){
         
-    var jsonURL = 'http://soundboard.thomas-merel.fr/config.json'
+    var jsonURL = 'http://sampbox.thomas-merel.fr/src/config/buttons.json'
         
-    getJSON(jsonURL, initialStep);
+    getJSON(jsonURL);
         
 });
 
@@ -21,5 +21,5 @@ function managerJSON(jsonFile){
 function htmlConstructor(jsonButton){
 
     var button = '<a class="waves-effect waves-light btn" onClick="play(this)" data-button-name="'+jsonButton.name+'" data-sound-uri="'+jsonButton.value+'" href="#">'+jsonButton.name+'</a>';
-    $('#button-lib').append(button);
+    $('#buttons-lib').append(button);
 }
