@@ -35,7 +35,7 @@ function htmlConstructor(jsonButton){
 }
 
 function play(button){
-    var uri=button.attr('data-sound-uri');
+    var uri=$(button).attr('data-sound-uri');
     new Audio(uri).play();
 }
 
@@ -44,6 +44,6 @@ function sortButton(button){
         $('.soundButton').show();
     }else{
         $('.soundButton').hide()
-        $('.soundButton[data-button-tags="'+$(button).attr('data-button-sort')+'"]');
+        $('.soundButton[data-button-tags="'+$(button).attr('data-button-sort')+'"]').show();
     }
 }
