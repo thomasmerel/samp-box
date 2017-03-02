@@ -1,12 +1,82 @@
-{
-    "C'est pas faux 1" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 2" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 3" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 4" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 5" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 6" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 7" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 8" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 9" : "src/mp3/cest_pas_faux.mp3",
-    "C'est pas faux 10" : "src/mp3/cest_pas_faux.mp3"
-}
+[
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    },
+    {
+        "text" : "C'est pas faux",
+        "uri" : "./src/mp3/cestpasfaux.mp3",
+        "tags" : "kaamelott"
+    }
+]
