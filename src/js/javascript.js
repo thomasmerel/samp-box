@@ -7,7 +7,6 @@ $(function(){
 
 function getJSON(url){
     $.getJSON( url, function(json) {
-	console.log(json);
         managerJSON(json);
     });
 }
@@ -28,10 +27,10 @@ function htmlConstructor(jsonButton){
 
     if(index === -1){
         tags.push(jsonButton.tag);
-    }
 
-    var tag = '<a class="waves-effect waves-light btn" onclick="sortButton(this)" data-button-sort="'+jsonButton.tag+'">'+jsonButton.tag+'</a>';
-    $('#tag-lib').append(tag);
+        var tag = '<a class="waves-effect waves-light btn" onclick="sortButton(this)" data-button-sort="'+jsonButton.tag+'">'+jsonButton.tag+'</a>';
+        $('#tag-lib').append(tag);
+    }
 
 }
 
