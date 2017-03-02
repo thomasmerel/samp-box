@@ -19,14 +19,20 @@ function managerJSON(jsonFile){
 }
 
 function htmlConstructor(jsonButton){
-    console.log(jsonButton);
     var button = '<a class="waves-effect waves-light btn" onClick="play(this)" data-button-tags="'+jsonButton.tag+'" data-button-name="'+jsonButton.text+'" data-sound-uri="'+jsonButton.uri+'" href="#">'+jsonButton.text+'</a>';
     $('#buttons-lib').append(button);
+
+
+    var tag = '<a class="waves-effect waves-light btn" onclick="sortButton(this)" data-button-sort="'+jsonButton.tag+'">'+jsonButton.tag+'</a>';
+    $('#tag-lib').append(tag);
+
 }
 
 function play(button){
-    console.log(button);
-    new Audio('<url>').play();
+    var uri=button.attr('data-sound-uri');
+    new Audio(uri).play();
 }
 
-
+function sort(button){
+    console.log(button);
+}
