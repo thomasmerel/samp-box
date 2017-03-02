@@ -27,7 +27,8 @@ function htmlConstructor(jsonButton){
 
 function play(button){
     console.log(button);
-    //new Audio('<url>').play();
+	var url = button.getAttribute('data-sound-uri');
+	new Audio(url).play();
 }
 
 
