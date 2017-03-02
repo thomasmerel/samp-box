@@ -18,10 +18,17 @@ function managerJSON(jsonFile){
     });
 }
 
+tags = ['All'];
+
 function htmlConstructor(jsonButton){
     var button = '<a class="waves-effect waves-light btn" onClick="play(this)" data-button-tags="'+jsonButton.tag+'" data-button-name="'+jsonButton.text+'" data-sound-uri="'+jsonButton.uri+'" href="#">'+jsonButton.text+'</a>';
     $('#buttons-lib').append(button);
 
+    index = tags.indexOf(jsonButton.tag);
+
+    if(index === -1){
+        tags.push(jsonButton.tag);
+    }
 
     var tag = '<a class="waves-effect waves-light btn" onclick="sortButton(this)" data-button-sort="'+jsonButton.tag+'">'+jsonButton.tag+'</a>';
     $('#tag-lib').append(tag);
