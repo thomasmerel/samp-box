@@ -28,7 +28,7 @@ function htmlConstructor(jsonButton){
     if(index === -1){
         tags.push(jsonButton.tags);
 
-        var tag = '<a class="waves-effect waves-light btn tagButton" onclick="sortButton(this)" data-button-sort="'+jsonButton.tags+'">'+jsonButton.tag+'</a>';
+        var tag = '<a class="waves-effect waves-light btn tagButton" onclick="sortButton(this)" data-button-sort="'+jsonButton.tags+'">'+jsonButton.tags+'</a>';
         $('#tag-lib').append(tag);
     }
 
@@ -40,10 +40,10 @@ function play(button){
 }
 
 function sortButton(button){
-    if(button.attr('data-button-sort') === 'All'){
+    if($(button).attr('data-button-sort') === 'All'){
         $('.soundButton').show();
     }else{
         $('.soundButton').hide()
-        $('.soundButton[data-button-tags="'+button.attr('data-button-sort')+'"]');
+        $('.soundButton[data-button-tags="'+$(button).attr('data-button-sort')+'"]');
     }
 }
