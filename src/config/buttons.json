@@ -63,5 +63,10 @@
         "text" : "Je s'appelle groot",
         "uri" : "src/mp3/je_sappelle_groot.mp3",
         "tags" : "Various"
+    },
+    {
+        "text" : "Jm'en bats les couilles",
+        "uri" : "src/mp3/jmen-bats-les-couilles.mp3",
+        "tags" : "Various"
     }
 ]
