@@ -53,5 +53,15 @@
         "text" : "?!?!?",
         "uri" : "src/mp3/cri.mp3",
         "tags" : "Gitans"
+    },
+    {
+        "text" : "Oui oui oui !",
+        "uri" : "src/mp3/ouiouioui.mp3",
+        "tags" : "Lepers"
+    },
+    {
+        "text" : "Je s'appelle groot",
+        "uri" : "src/mp3/je_sapelle_groot.mp3",
+        "tags" : "Various"
     }
 ]
