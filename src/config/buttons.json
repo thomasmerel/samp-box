@@ -4,59 +4,54 @@
         "uri" : "src/mp3/cest_pas_faux.mp3",
         "tags" : "Kaamelott"
     },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
+	{
+        "text" : "Cuillere",
+        "uri" : "src/mp3/cuillere.mp3",
+        "tags" : "Kaamelott"
+    },
+	{
+        "text" : "Mais tout à fait",
+        "uri" : "src/mp3/mais_tout_a_fait.mp3",
+        "tags" : "Kaamelott"
+    },
+	{
+        "text" : "Sortez-vous les doigts du cul",
+        "uri" : "src/mp3/sortez-vous_les_doigts_du_cul.mp3",
         "tags" : "Kaamelott"
     },
     {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
+        "text" : "Ferme ta gueule",
+        "uri" : "src/mp3/fermetagueule.mp3",
+        "tags" : "Gitans"
     },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
+	{
+        "text" : "Nectarifère",
+        "uri" : "src/mp3/nectarifere.mp3",
+        "tags" : "Lepers"
     },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
+	{
+        "text" : "Doh!",
+        "uri" : "src/mp3/Doh.mp3",
+        "tags" : "Various"
     },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
+	{
+        "text" : "J'ai pas peur",
+        "uri" : "src/mp3/jaipaspeur.mp3",
+        "tags" : "Gitans"
     },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
+	{
+        "text" : "Thank you come again",
+        "uri" : "src/mp3/Thank_You_Come_Again.mp3",
+        "tags" : "Various"
     },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
+	{
+        "text" : "I've got balls of steel",
+        "uri" : "src/mp3/ballsofsteel.mp3",
+        "tags" : "Various"
     },
-    {
-        "text" : "Test",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Test"
-    },
-    {
-        "text" : "Test",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Test"
-    },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
-    },
-    {
-        "text" : "C'est pas faux",
-        "uri" : "src/mp3/cest_pas_faux.mp3",
-        "tags" : "Kaamelott"
+	{
+        "text" : "?!?!?",
+        "uri" : "src/mp3/cri.mp3",
+        "tags" : "Gitans"
     }
 ]
